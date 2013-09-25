@@ -1,0 +1,8 @@
+l
+d testdir
+l
+c testdir
+l
+h
+l
+q

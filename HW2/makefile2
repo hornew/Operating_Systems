@@ -1,0 +1,2 @@
+part2main: hw2main.o
+	g++ hw2main.o -o part2

@@ -1,0 +1,29 @@
+#
+#Author: William (Austin) Horne
+#Date:   2/19/13
+#Course: CSCI 4727
+#Purpose:Gain practice with C/C++ and Linux.
+#	  Accepts command line arguments and creates a directory in
+# 	  which to record a log file.
+
+if [ -a makefile ]
+then
+	echo File exists
+	make 
+	make "part2"
+else 
+	echo File does not exist. Terminating.
+	exit -1
+fi
+
+echo Hit enter to continue
+read name
+
+if [ -x hw2 ]
+then
+	echo hw2 exists
+	hw2 -u Austin
+else
+	echo Executable hw2 does not exist. Terminating.
+	exit -1
+fi
